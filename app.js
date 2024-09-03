@@ -19,3 +19,36 @@ const game = {
     ],
   }
   
+// Exercise 1
+
+// console.dir(pokemon, { maxArrayLength: null })
+
+// console.log("E1: ", pokemon[58].name)
+
+// Exercise 2
+
+// console.log("E2: ", game) 
+
+// Exercise 3
+
+game.difficulty = ["Hard"]
+
+// console.log(game.difficulty)
+
+// Exercise 4
+
+game.party.push(pokemon[0].name)
+
+console.log(game.party)
+
+// Exercise 5 
+
+game.party.push(pokemon[17].name, pokemon[79].name, pokemon[41].name)
+
+console.log(game.party) 
+
+// Exercise 6 
+
+game.gyms.completed != ())
+
+console.log(game.gyms)
