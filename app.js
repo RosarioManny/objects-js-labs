@@ -23,11 +23,11 @@ const game = {
 
 // console.dir(pokemon, { maxArrayLength: null })
 
-// console.log("E1: ", pokemon[58].name)
+// console.log(pokemon[58].name)
 
 // Exercise 2
 
-// console.log("E2: ", game) 
+// console.log(game) 
 
 // Exercise 3
 
@@ -37,18 +37,43 @@ game.difficulty = ["Hard"]
 
 // Exercise 4
 
-game.party.push(pokemon[0].name)
+game.party.push(pokemon[0])
 
-console.log(game.party)
+// console.log(game.party)
 
 // Exercise 5 
 
-game.party.push(pokemon[17].name, pokemon[79].name, pokemon[41].name)
+game.party.push(pokemon[17], pokemon[79], pokemon[41])
 
-console.log(game.party) 
+// console.log(game.party) 
 
 // Exercise 6 
 
-game.gyms.completed != ())
 
-console.log(game.gyms)
+game.gyms[0].completed = true
+game.gyms[1].completed = true
+
+// console.log(game.gyms)
+
+// Exercise 7
+
+game.party.splice(0,1, pokemon[1])
+
+// console.log(game.party)
+
+// Exercise 8
+
+// for(let pokemon in game.party) {
+//     console.log(game.party[pokemon].name)
+// }
+
+// Exercise 9 
+
+for(let mons in pokemon) {
+    if (pokemon.starter === true)
+        return pokemon
+} if else () {
+    return "Not a starter"
+}
+
+console.log(pokemon.starter)
